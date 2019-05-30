@@ -17,9 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"Hello HDFC"); 
+    NSLog(@"Hello HDFC");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"Reload");
+}
 
 @end
