@@ -24,6 +24,10 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     NSLog(@"Reload");
+    NSLog(@"Reload");
+    NSLog(@"Reload");
+    NSLog(@"Reload");
+    NSLog(@"Reload");
 }
 
 @end
